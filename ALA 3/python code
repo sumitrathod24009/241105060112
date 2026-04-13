@@ -1,0 +1,9 @@
+arr = [3, 7, 1, 9, 4]
+n = 5
+max_val = arr[0]
+
+for i in range(1, n):
+    if arr[i] > max_val:
+        max_val = arr[i]
+
+print("Max =", max_val)
